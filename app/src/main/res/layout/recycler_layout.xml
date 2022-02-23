@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_weight="1"
+    android:minHeight="65dp"
+    android:orientation="vertical"
+    app:layout_constraintVertical_weight="1">
+
+    <TextView
+
+        android:id="@+id/noteView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_notes_view"
+        android:minHeight="50dp"
+        android:maxHeight="50dp"
+        android:minWidth="450dp"
+        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
